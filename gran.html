@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>letters to gran</title>
+    <style>
+      .postbox,
+      .addressee {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .addressee {
+        margin: 2em 0;
+      }
+
+      .envelope {
+        margin: 2em 0;
+        max-width: 60ch;
+        width: 100%;
+      }
+      .letter {
+        border: 1px solid #000;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+      }
+      .date {
+        text-align: end;
+        font-style: italic;
+      }
+      .speaking {
+        height: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="addressee">
+      <p>Thank you for your broad shoulders</p>
+      <br />
+      <span>love from Alex</span>
+    </div>
+    <section class="postbox">
+      <div class="envelope">
+        <div class="date">
+          <p>10 February, 2024</p>
+        </div>
+        <div class="letter">
+          <p>
+            "Opening up... that depends entirely on the person that you are
+            opening up to, doesn't it? How well you know them. Over the years,
+            I've had a few near misses, really."
+          </p>
+          <audio class="speaking" controls>
+            <source
+              src="stamps/to-glossop/20240210_for-gran.mp3"
+              type="audio/mp3"
+            />
+          </audio>
+
+          <img
+            src="/stamps/to-glossop/img20240210_14170128.jpg"
+            alt="'And then I lost track of her, for some reason, and a couple of months ago, her face popped up, and we're back in touch again.' A drawing of a window and a door in Glossop. 'I can't recall Sue and MAtt's house, but I remember blass letterboxes and sandy stone walls of Glossop'"
+          />
+        </div>
+      </div>
+      <div class="envelope">
+        <div class="date">
+          <p>wonderful tonight</p>
+        </div>
+        <div class="letter">
+          <audio class="speaking" controls>
+            <source
+              src="stamps/to-glossop/wonderful-tonight.mp3"
+              type="audio/mp3"
+            />
+          </audio>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
